@@ -1,5 +1,0 @@
-1.google font use korte hobe
-2.tablate version e view all button thakte hobe
-3.header e transtition animation use korte hobe
-4.html css name define korte hobe
-5.different color use korte hobe

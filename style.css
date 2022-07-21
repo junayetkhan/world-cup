@@ -53,6 +53,7 @@ body{
     text-decoration: none;
     color: #fff;
     background: rgb(12, 31, 206);
+    transition: transform ,0.5s;
     border-radius: 10px;
     padding: 15px 30px;
 
@@ -61,7 +62,7 @@ body{
 .button:hover {
     box-shadow: 2px 2px 15px red;
     background-color: seagreen;
-
+    transform: scale(2);
 }
 /* Top banner*/
 
@@ -108,7 +109,7 @@ body{
     margin-left: 17px;
 }
 /* upcoming start */
-.upcoming-info {
+.upcoming-section {
     width: 25%;
     background-color: #161616;
     height: fit-content;
@@ -118,7 +119,7 @@ body{
     margin-top: 1%;
 }
 
-.upcoming-info a {
+.upcoming-section a {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -129,15 +130,88 @@ body{
     font-size: 20px;
     font-weight: 600;
     border-radius: 10px;
-    /* text-align: center; */
-    
 }
 
-.upcoming-info .active {
+.upcoming-section .active {
     background-color: rgb(12, 31, 206);
     color: #fff;
 }
 /* upcoming end */
 
-
 /* Blog end */
+
+/* Match */
+
+.matches-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+
+}
+
+.match {
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.match-text p {
+    color: #4D4D4D;
+    font-size: 16px;
+    line-height: .5em;
+}
+
+.match-img {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-evenly;
+}
+
+.match-img h2 {
+    color: #161616;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.match-text {
+    text-align: center;
+}
+
+/* Match */
+
+/* Footer */
+footer {
+    margin-top: 95px;
+    padding: 90px 0;
+    background-color: #161616;
+}
+footer h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B9B9B9;
+}
+
+footer ul {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Footer */
+
+
